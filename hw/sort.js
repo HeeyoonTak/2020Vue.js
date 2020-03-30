@@ -8,9 +8,11 @@ let array = [];
 for(let i=0; i<100; i++){
     array[i] = Math.floor(Math.random() * (100 - 1 + 1) + 1);
 }
+
 array.sort();
 console.log(array); // 문자열 순서 정렬
+
 array.sort(function(a,b){
     return a-b;
 })
-console.log(array);
+console.log(array); //숫자 순서 정렬
