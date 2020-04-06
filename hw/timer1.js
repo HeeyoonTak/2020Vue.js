@@ -2,7 +2,7 @@ let count=0;
 let id = setInterval(function (msg) {
     count++;
     console.log(msg, new Date());
-    if(count == 11){
+    if(count == 10){
         console.log("종료")
         clearInterval(id);
     }
